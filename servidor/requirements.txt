@@ -1,0 +1,6 @@
+flask>=3.0
+numpy
+pillow
+# Para carregar o modelo, um dos dois:
+#   PC (Windows):  tensorflow            -> aceita .keras e .tflite
+#   Orange Pi:     ai-edge-litert        -> só .tflite, bem mais leve

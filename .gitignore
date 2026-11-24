@@ -1,0 +1,27 @@
+# credenciais
+secrets.h
+
+# dados e saídas grandes
+dataset/
+dados/
+modelos/
+testes/
+servidor/registros/
+
+# python
+__pycache__/
+.venv/
+*.pyc
+
+# exceção: registro bruto do teste preliminar
+!testes/
+testes/*
+!testes/preliminar_etapa1.csv
+
+# bases públicas e documentos internos
+treino/*.zip
+treino/mputu/
+TCC_*
+docs/
+CLAUDE.md
+*.html
